@@ -37,7 +37,7 @@ setTimeout(()=>{
   .catch(delay =>{
     iziToast.error({
       title: `Error`,
-      message: `❌ Rejected promise in ${delay}ms`,
+      message: `❌ Rejected promise in ${delay}ms`, 
 
     });
   });
