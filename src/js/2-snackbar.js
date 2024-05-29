@@ -10,11 +10,12 @@ const form = document.querySelector(".form");
 form.addEventListener("submit", function(event){
   event.preventDefault();
 
-  const delayInput = event.target.elementts.delay;
+  const delayInput = event.target.elements.delay;
 
   const stateInput = event.target.elements.state;
 
   const delay = parseInt(delayInput.value);
+const state = stateInput.value
 
   const userPromise = new Promise((resolve, reject) =>{
 setTimeout(()=>{
@@ -37,7 +38,7 @@ setTimeout(()=>{
   .catch(delay =>{
     iziToast.error({
       title: `Error`,
-      message: `❌ Rejected promise in ${delay}ms`, 
+      message: `❌ Rejected promise in ${delay}ms`,
 
     });
   });
