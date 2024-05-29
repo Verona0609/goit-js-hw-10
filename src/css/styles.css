@@ -23,3 +23,45 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+
+
+.timer {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.value {
+  font-size: 2rem;
+}
+
+
+.label {
+  font-size: 1rem;
+}
+
+form{
+width: 250px;
+
+}
+input[name="delay"]{
+  width: 240px;
+ }
+
+button{
+margin-top: 20px;
+width: 250px;
+}
+
+
+
+
